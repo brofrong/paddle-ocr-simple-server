@@ -1,0 +1,20 @@
+meta {
+  name: recognize
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/recognize
+  body: multipartForm
+  auth: inherit
+}
+
+body:multipart-form {
+  img: @file(/Users/dmitiigorshkov/Desktop/Screenshot 2025-12-17 at 16.21.13.png)
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
