@@ -1,6 +1,6 @@
 {
 	"name": "paddle-ocr-simple-server",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"scripts": {
 		"dev": "bun run --hot src/index.ts",
 		"start": "bun run src/index.ts",
